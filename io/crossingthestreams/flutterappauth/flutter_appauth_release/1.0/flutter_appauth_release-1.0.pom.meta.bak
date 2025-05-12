@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.crossingthestreams.flutterappauth</groupId>
+  <artifactId>flutter_appauth_release</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>io.flutter</groupId>
+      <artifactId>flutter_embedding_release</artifactId>
+      <version>1.0.0-18b71d647a292a980abb405ac7d16fe1f0b20434</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.openid</groupId>
+      <artifactId>appauth</artifactId>
+      <version>0.11.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
